@@ -1,0 +1,24 @@
+.container{
+    /* border: 5px solid green; */
+}
+.container-fluid{
+    border: 5px solid red;
+}
+.row{
+    /* border: 10px solid skyblue; */
+}
+.yellow{
+    background: yellow;
+}
+.orange{
+    background: orange;
+}
+.pink{
+    background: pink;
+}
+.blue{
+    background: blue;
+}
+.cyan{
+    background: cyan;
+}

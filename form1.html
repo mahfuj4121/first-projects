@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="" value="">
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form action="">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control-plaintext "readonly id="email" placeholder="email@example.com" value="">
+                <label for="color-picker" class="form-label">Color picker</label>
+                <input type="color" class="form-control form-control-color" id="color-picker" value="#AB47BC" title="Choose your color">
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="text-center p4">Data List</div>
+        <form action="">
+            <div class="mb-3">
+                <input type="" class="form-control" list="datalistoptions" id="exampleDataList">
+                <datalist id="datalistoptions">
+                    <option value="Dhaka"></option>
+                    <option value="Manikganj"></option>
+                </datalist>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="text-center p4">Select List</div>
+        
+            <form action="">
+                <div class="row">
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option selected disabled>Open this select menu</option>
+                            <option value="Mango">Mango</option>
+                            <option value="Banana">Banana</option>
+                            <option value="Orange">Orange</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+    </div>
+    <div class="container">
+        <div class="text-center p4">Check Box</div>
+        <form action="">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkDefault">
+                <label for="checkDefault" class="form-check-label">Default checkbox</label><br>
+
+                <input type="checkbox" class="form-check-input" id="check1">
+                <label for="check1" class="form-check-label">1</label><br>
+
+                <input type="checkbox" class="form-check-input" id="chec2">
+                <label for="check2" class="form-check-label">2</label>
+            </div>
+        </form>
+
+    </div>
+    <script src="/assets/js/bootstrap.min.js"></script>
+</body>
+</html>
